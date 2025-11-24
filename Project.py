@@ -1,6 +1,4 @@
-
-
-expensesList = [] 
+expensesList = []
 print(" Welcome to Expense Tracker Khrcha kam kiya karo ")
 
 while True:
@@ -37,7 +35,7 @@ while True:
     print("==== Ye y apka sara expense ====")
     count= 1
     for eachKharcha in expensesList:
-         print[("Kharcha Number",count),("Date",eachKharcha["date"]),("Category",eachKharcha["category"]),("Description",eachKharcha)] 
+         print(f"Kharcha Number: {count}, Date: {eachKharcha["date"]}, Category: {eachKharcha["category"]}, Description: {eachKharcha["description"]}")
          count= count+1
 
 
