@@ -37,7 +37,7 @@ while True:
     print("==== Ye y apka sara expense ====")
     count= 1
     for eachKharcha in expensesList:
-         print("Kharcha Number",count)
+         print[("Kharcha Number",count),("Date",eachKharcha["date"]),("Category",eachKharcha["category"]),("Description",eachKharcha)] 
          count= count+1
 
 
