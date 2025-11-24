@@ -1,0 +1,22 @@
+# Project Statement: Expense Tracker (Khrcha Kam Kiya Karo)
+
+## Problem Statement
+Tracking daily financial transactions is often neglected due to the complexity of complex financial software. Individuals, particularly students, frequently lose track of small, daily expenditures on categories like food, travel, and personal items. This project addresses the need for a straightforward, immediate method to log and review spending to encourage better financial awareness.
+
+## Scope of the Project
+This project involves the development of a Python-based Command Line Interface (CLI) application. The scope allows users to:
+* Input expense data dynamically during a runtime session.
+* Categorize expenses into specific groups (e.g., Food, Travel, Makeup, Books).
+* Store data in structured lists within the application memory.
+* Retrieve and display logs and calculate mathematical totals of recorded amounts.
+
+## Target Users
+* Students: Who need to manage pocket money or monthly allowances.
+* Young Professionals: Who require a quick way to log daily spending without complex setup.
+* General Users: Anyone looking for a simple, text-based tool to monitor their spending habits.
+
+## High-Level Features
+1.  Expense Logging: A module to input specific details including date, category, description, and amount.
+2.  View All Records: A display function that iterates through the stored data to show a complete history of expenses added in the current session.
+3.  Total Calculation: An aggregation feature that sums up the `amnt` values to provide a "Total Khrcha" (Total Expenditure) snapshot.
+4.  Interactive Menu: A `while` loop-driven menu system allowing users to navigate between adding, viewing, and calculating expenses easily.
